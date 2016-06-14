@@ -1,7 +1,7 @@
 +++
 date = "2016-06-14T22:32:35+05:30"
 draft = false
-title = "new-content"
+title = "blog-content"
 
 +++
 
