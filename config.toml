@@ -1,6 +1,28 @@
 baseurl = "http://testsitett.s3-website-us-west-2.amazonaws.com/"
 languageCode = "en-us"
 title = "Tyson Blog"
+banner = "This is New"
 
 [Params]
   Author = "Tyson Thomas"
+  bannerDescription = "Another free + fully responsive site template by HTML5 UP"
+  serviceDescription = "Cras mattis ante fermentum, malesuada neque vitae, eleifend erat."
+  contactDescription = "Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet."
+  address = "Untitled Inc,  1234 Somewhere Road Suite #2894,  Nashville, TN 00000-0000"
+  number = "(000) 00000-0000"
+[[Params.social]]
+	title = "email"
+	icon = "envelope-o"
+	url = "mailto:test@test.com"
+[[Params.social]]
+	title = "twitter"
+	icon = "twitter"
+	url = "https://twitter.com/SBootstrap"
+[[Params.social]]
+	title = "github"
+	icon = "github"
+	url = "https://github.com/IronSummitMedia/startbootstrap"
+[[Params.social]]
+	title = "linkedin"
+	icon = "linkedin"
+	url = "http://linkedin.com/yourusername"
