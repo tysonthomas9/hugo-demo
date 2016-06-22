@@ -1,0 +1,7 @@
+{{ range .Site.Params.social }}
+	<li class="fa-{{ .icon }}">
+		<a href="{{ .url }}">
+			{{ .title }}
+		</a>
+	</li>
+{{ end }}

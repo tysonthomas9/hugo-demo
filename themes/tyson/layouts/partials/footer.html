@@ -1,0 +1,32 @@
+<!-- Footer -->
+  <section id="footer">
+    <div class="inner">
+      <h2 class="major">Get in touch</h2>
+      <p> {{ .Site.Params.contactDescription }} </p>
+
+      {{ partial "contact.html" . }}
+
+      <ul class="contact">
+
+        {{ if isset .Site.Params "address" }}
+          <li class="fa-home">
+            {{ .Site.Params.address }}
+          </li>
+        {{ end }}
+
+        {{ if isset .Site.Params "number" }}
+          <li class="fa-phone">{{ .Site.Params.number }}</li>
+        {{ end }}
+
+        {{ partial "social.html" . }}
+      </ul>
+      <ul class="copyright">
+        <li>&copy; {{ .Site.Params.Author }} Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Template: <a href="#">Tyson Thomas</a></li>
+      </ul>
+    </div>
+  </section>
+
+</div>
+{{ partial "js.html" . }}
+</body>
+</html>

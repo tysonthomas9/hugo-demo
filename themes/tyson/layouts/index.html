@@ -1,8 +1,6 @@
-<!DOCTYPE html>
-<html>
-<body>
-  {{ range first 10 .Data.Pages }}
-    <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-  {{ end }}
-</body>
-</html>
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+{{ partial "menu.html" . }}
+{{ partial "banner.html" . }}
+{{ partial "services1.html" . }}
+{{ partial "footer.html" . }}
